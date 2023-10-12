@@ -1,0 +1,164 @@
+Year,VNF-FGE,VNF-CC,VNF-SCH,Coordinated?,Scalable?,Algorithm,Shows adaptiveness?,Implementation,Optimization factors
+2017,No,Yes,No,N/A,No,LP,No,No,Resource usage
+2020,No,Yes,No,N/A,No,Finite Automaton,No,No,N/A
+2019,No,No,Yes,N/A,Yes,GA,No,No,Latency
+2021,No,No,Yes,N/A,Yes,RL,No,No,"Latency, Fairness"
+2014,No,No,Yes,N/A,No,Flexible job-shop problem,No,No,Latency
+2018,No,No,Yes,N/A,Yes,Game theory,Yes,No,Latency
+2023,Yes,No,Yes,No,Yes,RL,Yes,No,Acceptance ratio
+2014,No,No,Yes,N/A,No,Resource Constrained Project Scheduling Problem,No,No,Latency
+2015,No,No,Yes,N/A,No,N/A,No,No,Latency
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,"Latency, Cost"
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Latency
+2016,Yes,No,No,N/A,Yes,Heuristic,No,No,"No. of VNF instances, Distance between VNFs"
+2015,Yes,No,No,N/A,Yes,Heuristic,Yes,OpenStack,Worst case Cut Load Ratio
+2016,Yes,No,No,N/A,No,LP,No,No,Cost
+2016,Yes,No,No,N/A,Yes,Heuristic,No,Mininet,Acceptance ratio
+2015,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2015,Yes,No,No,N/A,No,LP,No,No,Cost
+2015,Yes,No,No,N/A,No,Exact,No,No,Cost
+2016,Yes,No,No,N/A,Yes,Game theory,No,No,Cost
+2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2017,Yes,No,No,N/A,Yes,"LP, GA, RFPA",No,No,Cost
+2023,Yes,No,No,N/A,Yes,RL,Yes,No,Cost
+2020,Yes,No,No,N/A,Yes,RL,No,No,Acceptance ratio
+2020,Yes,No,No,N/A,No,LP,No,No,Resource usage
+2020,Yes,No,No,N/A,Yes,RL,No,No,Power consumption
+2019,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
+2020,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Resource usage, Acceptance ratio"
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2020,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Resource usage, Congestion"
+2022,Yes,No,No,N/A,Yes,RL,Yes,No,Acceptance ratio
+2022,Yes,No,No,N/A,Yes,RL,No,No,"Acceptance ratio, Resource usage, Load balancing"
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Reconfiguration cost, Revenue"
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,CloudSim,"Availability, Cost, Resource usage, Power consumption "
+2020,Yes,No,No,N/A,Yes,ML,Yes,5Gin-FIRE testbed,Latency
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Cost, Resource usage"
+2022,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,CloudSim,"Cost, Power consumption, Resource usage"
+2020,Yes,No,No,N/A,No,Dynamic Programming,Yes,Alevin,Resource usage
+2020,Yes,No,No,N/A,No,Hungarian,Yes,Alevin,Resource usage
+2020,Yes,No,No,N/A,Yes,RL,Yes,No,Acceptance ratio
+2019,Yes,No,No,N/A,Yes,RL,No,No,Resource usage
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,Mininet,Availability
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2019,Yes,No,No,N/A,Yes,Heuristic,No,OpenNetVM,Performance
+2022,Yes,No,No,N/A,No,Exact,Yes,No,"Acceptance ratio, Cost, Resource usage"
+2017,Yes,No,No,N/A,Yes,Heuristic,No,No,"Acceptance ratio, Power consumption"
+2020,Yes,No,No,N/A,Yes,"LP, Bee colony, GA",No,Mininet,"Cost, Latency"
+2019,Yes,No,No,N/A,Yes,GA,No,No,Cost
+2017,Yes,No,No,N/A,Yes,GA,Yes,"Mininet, Ryu","Reconfiguration cost, Resource usage"
+2016,Yes,No,No,N/A,Yes,GA,Yes,OMNET++,Power consumption
+2014,Yes,No,No,N/A,Yes,Exact,Yes,VLSP,N/A
+2016,Yes,No,No,N/A,No,LP,No,No,Resource usage
+2015,Yes,No,No,N/A,No,Exact,Yes,No,Acceptance ratio
+2015,Yes,No,No,N/A,Yes,Viterbi,No,No,Cost
+2014,Yes,No,No,N/A,No,Exact,No,custom,Resource usage
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,No. of VNF instances
+2014,Yes,No,No,N/A,No,LP,No,No,Resource usage
+2016,Yes,No,No,N/A,Yes,Heuristic,No,No,N/A
+2016,Yes,No,No,N/A,No,Exact,No,No,N/A
+2016,Yes,No,No,N/A,No,LP,No,No,Resource usage
+2016,Yes,No,No,N/A,No, Exact,Yes,No,Acceptance ratio
+2022,Yes,No,No,N/A,Yes,RL,Yes,No,Revenue cost ratio
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Resource usage
+2019,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
+2023,Yes,No,No,N/A,Yes,ML,Yes,No,Latency
+2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Acceptance ratio, Availability"
+2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Availability, Power consumption"
+2019,Yes,No,No,N/A,No,LP,No,No,Cost
+2021,Yes,No,No,N/A,No,Exact,Yes,Alevin,Cost
+2020,Yes,No,No,N/A,Yes,"Heuristic, ML",Yes,No,Latency
+2022,Yes,No,No,N/A,Yes,Stable matching,Yes,No,Resource usage
+2022,Yes,No,No,N/A,Yes,Grey wolf,Yes,No,Cost
+2020,Yes,No,No,N/A,No,Exact,No,Alevin,Acceptance ratio
+2023,Yes,No,No,N/A,Yes,RL,Yes,No,Resource usage
+2020,Yes,No,No,N/A,No,Exact,No,Alevin,Resource usage
+2019,Yes,No,No,N/A,No,Hungarian,No,Alevin,Latency
+2022,Yes,No,No,N/A,Yes,RL,Yes,No,"Cost, Power consumption"
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,No. of placement groups
+2015,Yes,No,No,N/A,Yes,Heuristic,No,CREATE-NET,Cost
+2015,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2016,Yes,No,No,N/A,Yes,Game theory,Yes,No,"Latency, Power consumption"
+2015,Yes,No,No,N/A,No,LP,No,No,Latency
+2017,Yes,No,No,N/A,Yes,Game theory,No,No,Congestion
+2015,Yes,No,No,N/A,No,LP,No,No,Cost
+2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
+2015,Yes,No,No,N/A,No,LP,Yes,No,Resource usage
+2021,Yes,No,No,N/A,Yes,RL,No,OpenStack,Embedding Delay
+2021,Yes,No,No,N/A,Yes,RL,No,No,"Cost, Latency"
+2022,Yes,No,No,N/A,No,Exact,Yes,No,"Cost, Latency"
+2021,Yes,No,No,N/A,Yes,RL,No,No,"Acceptance ratio, Cost, Latency"
+2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency, Resource Usage"
+2020,Yes,No,No,N/A,No,Integer Quadratically Constrained Program,Yes,No,"Cost, No. of migrations"
+2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2021,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Resource usage
+2020,Yes,No,No,N/A,Yes,Heuristic,No,No,"Power consumption, Cost"
+2021,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Acceptance ratio
+2019,Yes,No,No,N/A,No,Hungarian,No,Alevin,"Resource usage, Latency"
+2022,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Resource usage
+2023,Yes,No,No,N/A,Yes,Heuristic,No,No,Latency
+2021,Yes,No,No,N/A,Yes,RL,Yes,No,Revenue
+2023,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Resource usage, Throughput"
+2023,Yes,No,No,N/A,Yes,"ML, RL",Yes,OpenStack,Latency
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Acceptance ratio
+2023,Yes,No,No,N/A,Yes,Tabu Search,No,OpenStack,Cost
+2019,Yes,No,No,N/A,Yes,Heuristic,No,No,"Latency, Cost"
+2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Revenue, Cost"
+2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency"
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Migration Latency, Availability"
+2020,Yes,No,No,N/A,Yes,RL,Yes,No,"Availability, Power consumption"
+2023,Yes,No,No,N/A,Yes,RL,Yes,K8s,"Cost, Availability"
+2022,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Cost, Throughput"
+2022,Yes,No,No,N/A,Yes,Meteor Shower Optimization ,Yes,Mininet,Cost
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Latency
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Latency, Cost, No. of Migrations"
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,OpenNetVM,Throughput
+2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2020,Yes,No,No,N/A,Yes,"Blockchain, RL",Yes,No,"Latency, Cost"
+2021,Yes,No,No,N/A,Yes,"ML, RL",Yes,OpenStack,"Latency, Scaling cost"
+2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Power consumption
+2023,Yes,No,No,N/A,Yes,"ML, RL",No,Mininet,"Latency, Resource usage"
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2021,Yes,No,No,N/A,Yes,Game theory,Yes,No,Latency
+2020,Yes,No,No,N/A,No,Exact,No,K8s,Latency
+2022,Yes,No,No,N/A,Yes,RL,No,No,"Cost, Resource usage, Latency"
+2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
+2022,Yes,No,No,N/A,No,Exact,No,No,"Latency, Cost"
+2020,Yes,No,No,N/A,No,Exact,Yes,Alevin,Resource usage
+2019,Yes,No,No,N/A,No,Exact,No,No,Power consumption
+2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency, Power consumption"
+2022,Yes,No,No,N/A,Yes,Heuristic,Yes,Raspberry Pi deployment platform,"Availability,Latency, Cost"
+2019,Yes,No,No,N/A,Yes,"Heuristic, ML",Yes,No,Cost
+2023,Yes,No,No,N/A,Yes,Heuristic,No,No,"Acceptance ratio, Resource usage"
+2022,Yes,No,No,N/A,Yes,Grey wolf,No,No,"Latency, Resource usage"
+2023,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Resource usage, Service violation, Throughput"
+2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Latency, Reliability"
+2022,Yes,No,No,N/A,Yes,Approximation algorithm,Yes,No,"Cost, Congestion"
+2020,Yes,No,No,N/A,Yes,Swarm intelligence,No,Mininet,Resource usage
+2019,Yes,No,No,N/A,Yes,Approximation algorithm,Yes,No,"Cost, Congestion"
+2019,Yes,No,No,N/A,Yes,ML,No,No,Latency
+2020,Yes,No,No,N/A,Yes,RL,Yes,No,"Cost, Acceptance ratio"
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
+2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Power consumption, Cost"
+2017,Yes,No,No,N/A,Yes,Tabu search,Yes,No,Resource usage
+2017,Yes,No,No,N/A,Yes,Column generation,Yes,No,Revenue cost ratio
+2017,No,Yes,Yes,Yes,Yes,Column generation,Yes,No,Latency
+2023,No,Yes,Yes,Yes,Yes,GA,No,No,"Resource usage, Latency"
+2015,Yes,No,Yes,Yes,Yes,"Heuristic, Tabu search",Yes,No,"Cost, Latency"
+2019,Yes,No,Yes,Yes,Yes,GA,Yes,No,"Acceptance ratio, Latency, Congestion"
+2019,Yes,No,Yes,Yes,Yes,GA,No,No,Latency
+2016,Yes,No,Yes,No,Yes,GA,No,No,Latency
+2016,Yes,Yes,No,Yes,Yes,Heuristic,No,Alevin,Resource usage
+2020,Yes,Yes,No,Yes,Yes,GA,No,OMNet++,"Acceptance ratio, Resource usage"
+2016,Yes,Yes,No,No,Yes,Heuristic,No,No,Cost
+2014,Yes,Yes,No,No,Yes,Heuristic,No,No,"Resource usage, Latency"
+2015,Yes,Yes,No,No,No,Exact,No,No,Resource usage
+2015,Yes,Yes,No,No,Yes,Heuristic,Yes,No,Cost
+2018,Yes,Yes,No,No,Yes,Heuristic,Yes,No,"Cost, Revenue"
+2017,Yes,Yes,No,No,Yes,GA,No,No,Resource usage
+2019,Yes,Yes,No,No,Yes,Heuristic,Yes,No,Resource usage
+2022,Yes,Yes,No,No,Yes,Heuristic,No,No,Cost
+2023,Yes,Yes,Yes,Yes,Yes,"RL, ML",Yes,No,"Acceptance ratio, Cost, Latency"
