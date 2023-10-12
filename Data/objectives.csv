@@ -1,0 +1,23 @@
+"","Objective","Count"
+"1","Acceptance Ratio",21
+"2","Availability",8
+"3","Congestion",5
+"4","Cost",65
+"5","Distance Between VNFs",1
+"6","Embedding Delay",1
+"7","Fairness",1
+"8","Latency",49
+"9","Load Balancing",1
+"10","Migration Latency",1
+"11","No. of Migrations",2
+"12","No. of Placement Groups",1
+"13","No. of VNF Instances",2
+"14","Performance",1
+"15","Power Consumption",14
+"16","Reliability",1
+"17","Resource Usage",46
+"18","Revenue",4
+"19","Revenue Cost Ratio",2
+"20","Service Violation",1
+"21","Throughput",4
+"22","Worst Case Cut Load Ratio",1
