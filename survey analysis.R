@@ -4,9 +4,9 @@ library(ggrepel)
 library(tools)
 library("ggvenn")
 
-survey_data <- read.csv("../Desktop/Book1.csv")
+survey_data <- read.csv("Data/survey_data.csv")
 
-data_store <- "C:/Users/thevi/OneDrive/Academic Work/Studies/Ph.D. University of Glasgow/Research/First Year/Data/"
+data_store <- "Data/"
 
 # ------------------------------------- #
 #           Utility Functions           #
