@@ -1,164 +1,174 @@
-Year,VNF-FGE,VNF-CC,VNF-SCH,Coordinated?,Scalable?,Algorithm,Shows adaptiveness?,Implementation,Optimization factors
-2017,No,Yes,No,N/A,No,LP,No,No,Resource usage
-2020,No,Yes,No,N/A,No,Finite Automaton,No,No,N/A
-2019,No,No,Yes,N/A,Yes,GA,No,No,Latency
-2021,No,No,Yes,N/A,Yes,RL,No,No,"Latency, Fairness"
-2014,No,No,Yes,N/A,No,Flexible job-shop problem,No,No,Latency
-2018,No,No,Yes,N/A,Yes,Game theory,Yes,No,Latency
-2023,Yes,No,Yes,No,Yes,RL,Yes,No,Acceptance ratio
-2014,No,No,Yes,N/A,No,Resource Constrained Project Scheduling Problem,No,No,Latency
-2015,No,No,Yes,N/A,No,N/A,No,No,Latency
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,"Latency, Cost"
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Latency
-2016,Yes,No,No,N/A,Yes,Heuristic,No,No,"No. of VNF instances, Distance between VNFs"
-2015,Yes,No,No,N/A,Yes,Heuristic,Yes,OpenStack,Worst case Cut Load Ratio
-2016,Yes,No,No,N/A,No,LP,No,No,Cost
-2016,Yes,No,No,N/A,Yes,Heuristic,No,Mininet,Acceptance ratio
-2015,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2015,Yes,No,No,N/A,No,LP,No,No,Cost
-2015,Yes,No,No,N/A,No,Exact,No,No,Cost
-2016,Yes,No,No,N/A,Yes,Game theory,No,No,Cost
-2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2017,Yes,No,No,N/A,Yes,"LP, GA, RFPA",No,No,Cost
-2023,Yes,No,No,N/A,Yes,RL,Yes,No,Cost
-2020,Yes,No,No,N/A,Yes,RL,No,No,Acceptance ratio
-2020,Yes,No,No,N/A,No,LP,No,No,Resource usage
-2020,Yes,No,No,N/A,Yes,RL,No,No,Power consumption
-2019,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
-2020,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Resource usage, Acceptance ratio"
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2020,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Resource usage, Congestion"
-2022,Yes,No,No,N/A,Yes,RL,Yes,No,Acceptance ratio
-2022,Yes,No,No,N/A,Yes,RL,No,No,"Acceptance ratio, Resource usage, Load balancing"
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Reconfiguration cost, Revenue"
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,CloudSim,"Availability, Cost, Resource usage, Power consumption "
-2020,Yes,No,No,N/A,Yes,ML,Yes,5Gin-FIRE testbed,Latency
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Cost, Resource usage"
-2022,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,CloudSim,"Cost, Power consumption, Resource usage"
-2020,Yes,No,No,N/A,No,Dynamic Programming,Yes,Alevin,Resource usage
-2020,Yes,No,No,N/A,No,Hungarian,Yes,Alevin,Resource usage
-2020,Yes,No,No,N/A,Yes,RL,Yes,No,Acceptance ratio
-2019,Yes,No,No,N/A,Yes,RL,No,No,Resource usage
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,Mininet,Availability
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2019,Yes,No,No,N/A,Yes,Heuristic,No,OpenNetVM,Performance
-2022,Yes,No,No,N/A,No,Exact,Yes,No,"Acceptance ratio, Cost, Resource usage"
-2017,Yes,No,No,N/A,Yes,Heuristic,No,No,"Acceptance ratio, Power consumption"
-2020,Yes,No,No,N/A,Yes,"LP, Bee colony, GA",No,Mininet,"Cost, Latency"
-2019,Yes,No,No,N/A,Yes,GA,No,No,Cost
-2017,Yes,No,No,N/A,Yes,GA,Yes,"Mininet, Ryu","Reconfiguration cost, Resource usage"
-2016,Yes,No,No,N/A,Yes,GA,Yes,OMNET++,Power consumption
-2014,Yes,No,No,N/A,Yes,Exact,Yes,VLSP,N/A
-2016,Yes,No,No,N/A,No,LP,No,No,Resource usage
-2015,Yes,No,No,N/A,No,Exact,Yes,No,Acceptance ratio
-2015,Yes,No,No,N/A,Yes,Viterbi,No,No,Cost
-2014,Yes,No,No,N/A,No,Exact,No,custom,Resource usage
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,No. of VNF instances
-2014,Yes,No,No,N/A,No,LP,No,No,Resource usage
-2016,Yes,No,No,N/A,Yes,Heuristic,No,No,N/A
-2016,Yes,No,No,N/A,No,Exact,No,No,N/A
-2016,Yes,No,No,N/A,No,LP,No,No,Resource usage
-2016,Yes,No,No,N/A,No, Exact,Yes,No,Acceptance ratio
-2022,Yes,No,No,N/A,Yes,RL,Yes,No,Revenue cost ratio
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Resource usage
-2019,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
-2023,Yes,No,No,N/A,Yes,ML,Yes,No,Latency
-2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Acceptance ratio, Availability"
-2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Availability, Power consumption"
-2019,Yes,No,No,N/A,No,LP,No,No,Cost
-2021,Yes,No,No,N/A,No,Exact,Yes,Alevin,Cost
-2020,Yes,No,No,N/A,Yes,"Heuristic, ML",Yes,No,Latency
-2022,Yes,No,No,N/A,Yes,Stable matching,Yes,No,Resource usage
-2022,Yes,No,No,N/A,Yes,Grey wolf,Yes,No,Cost
-2020,Yes,No,No,N/A,No,Exact,No,Alevin,Acceptance ratio
-2023,Yes,No,No,N/A,Yes,RL,Yes,No,Resource usage
-2020,Yes,No,No,N/A,No,Exact,No,Alevin,Resource usage
-2019,Yes,No,No,N/A,No,Hungarian,No,Alevin,Latency
-2022,Yes,No,No,N/A,Yes,RL,Yes,No,"Cost, Power consumption"
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,No. of placement groups
-2015,Yes,No,No,N/A,Yes,Heuristic,No,CREATE-NET,Cost
-2015,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2016,Yes,No,No,N/A,Yes,Game theory,Yes,No,"Latency, Power consumption"
-2015,Yes,No,No,N/A,No,LP,No,No,Latency
-2017,Yes,No,No,N/A,Yes,Game theory,No,No,Congestion
-2015,Yes,No,No,N/A,No,LP,No,No,Cost
-2015,Yes,No,No,N/A,Yes,Heuristic,No,No,Resource usage
-2015,Yes,No,No,N/A,No,LP,Yes,No,Resource usage
-2021,Yes,No,No,N/A,Yes,RL,No,OpenStack,Embedding Delay
-2021,Yes,No,No,N/A,Yes,RL,No,No,"Cost, Latency"
-2022,Yes,No,No,N/A,No,Exact,Yes,No,"Cost, Latency"
-2021,Yes,No,No,N/A,Yes,RL,No,No,"Acceptance ratio, Cost, Latency"
-2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency, Resource Usage"
-2020,Yes,No,No,N/A,No,Integer Quadratically Constrained Program,Yes,No,"Cost, No. of migrations"
-2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2021,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Resource usage
-2020,Yes,No,No,N/A,Yes,Heuristic,No,No,"Power consumption, Cost"
-2021,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Acceptance ratio
-2019,Yes,No,No,N/A,No,Hungarian,No,Alevin,"Resource usage, Latency"
-2022,Yes,No,No,N/A,Yes,Heuristic,No,Alevin,Resource usage
-2023,Yes,No,No,N/A,Yes,Heuristic,No,No,Latency
-2021,Yes,No,No,N/A,Yes,RL,Yes,No,Revenue
-2023,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Resource usage, Throughput"
-2023,Yes,No,No,N/A,Yes,"ML, RL",Yes,OpenStack,Latency
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Acceptance ratio
-2023,Yes,No,No,N/A,Yes,Tabu Search,No,OpenStack,Cost
-2019,Yes,No,No,N/A,Yes,Heuristic,No,No,"Latency, Cost"
-2021,Yes,No,No,N/A,Yes,RL,Yes,No,"Revenue, Cost"
-2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency"
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Migration Latency, Availability"
-2020,Yes,No,No,N/A,Yes,RL,Yes,No,"Availability, Power consumption"
-2023,Yes,No,No,N/A,Yes,RL,Yes,K8s,"Cost, Availability"
-2022,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Cost, Throughput"
-2022,Yes,No,No,N/A,Yes,Meteor Shower Optimization ,Yes,Mininet,Cost
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Latency
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Latency, Cost, No. of Migrations"
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,OpenNetVM,Throughput
-2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2020,Yes,No,No,N/A,Yes,"Blockchain, RL",Yes,No,"Latency, Cost"
-2021,Yes,No,No,N/A,Yes,"ML, RL",Yes,OpenStack,"Latency, Scaling cost"
-2021,Yes,No,No,N/A,Yes,Heuristic,No,No,Power consumption
-2023,Yes,No,No,N/A,Yes,"ML, RL",No,Mininet,"Latency, Resource usage"
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2021,Yes,No,No,N/A,Yes,Game theory,Yes,No,Latency
-2020,Yes,No,No,N/A,No,Exact,No,K8s,Latency
-2022,Yes,No,No,N/A,Yes,RL,No,No,"Cost, Resource usage, Latency"
-2020,Yes,No,No,N/A,Yes,Heuristic,No,No,Cost
-2022,Yes,No,No,N/A,No,Exact,No,No,"Latency, Cost"
-2020,Yes,No,No,N/A,No,Exact,Yes,Alevin,Resource usage
-2019,Yes,No,No,N/A,No,Exact,No,No,Power consumption
-2022,Yes,No,No,N/A,Yes,Heuristic,No,No,"Cost, Latency, Power consumption"
-2022,Yes,No,No,N/A,Yes,Heuristic,Yes,Raspberry Pi deployment platform,"Availability,Latency, Cost"
-2019,Yes,No,No,N/A,Yes,"Heuristic, ML",Yes,No,Cost
-2023,Yes,No,No,N/A,Yes,Heuristic,No,No,"Acceptance ratio, Resource usage"
-2022,Yes,No,No,N/A,Yes,Grey wolf,No,No,"Latency, Resource usage"
-2023,Yes,No,No,N/A,Yes,RL,Yes,No,"Latency, Resource usage, Service violation, Throughput"
-2021,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Latency, Reliability"
-2022,Yes,No,No,N/A,Yes,Approximation algorithm,Yes,No,"Cost, Congestion"
-2020,Yes,No,No,N/A,Yes,Swarm intelligence,No,Mininet,Resource usage
-2019,Yes,No,No,N/A,Yes,Approximation algorithm,Yes,No,"Cost, Congestion"
-2019,Yes,No,No,N/A,Yes,ML,No,No,Latency
-2020,Yes,No,No,N/A,Yes,RL,Yes,No,"Cost, Acceptance ratio"
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,Cost
-2019,Yes,No,No,N/A,Yes,Heuristic,Yes,No,"Power consumption, Cost"
-2017,Yes,No,No,N/A,Yes,Tabu search,Yes,No,Resource usage
-2017,Yes,No,No,N/A,Yes,Column generation,Yes,No,Revenue cost ratio
-2017,No,Yes,Yes,Yes,Yes,Column generation,Yes,No,Latency
-2023,No,Yes,Yes,Yes,Yes,GA,No,No,"Resource usage, Latency"
-2015,Yes,No,Yes,Yes,Yes,"Heuristic, Tabu search",Yes,No,"Cost, Latency"
-2019,Yes,No,Yes,Yes,Yes,GA,Yes,No,"Acceptance ratio, Latency, Congestion"
-2019,Yes,No,Yes,Yes,Yes,GA,No,No,Latency
-2016,Yes,No,Yes,No,Yes,GA,No,No,Latency
-2016,Yes,Yes,No,Yes,Yes,Heuristic,No,Alevin,Resource usage
-2020,Yes,Yes,No,Yes,Yes,GA,No,OMNet++,"Acceptance ratio, Resource usage"
-2016,Yes,Yes,No,No,Yes,Heuristic,No,No,Cost
-2014,Yes,Yes,No,No,Yes,Heuristic,No,No,"Resource usage, Latency"
-2015,Yes,Yes,No,No,No,Exact,No,No,Resource usage
-2015,Yes,Yes,No,No,Yes,Heuristic,Yes,No,Cost
-2018,Yes,Yes,No,No,Yes,Heuristic,Yes,No,"Cost, Revenue"
-2017,Yes,Yes,No,No,Yes,GA,No,No,Resource usage
-2019,Yes,Yes,No,No,Yes,Heuristic,Yes,No,Resource usage
-2022,Yes,Yes,No,No,Yes,Heuristic,No,No,Cost
-2023,Yes,Yes,Yes,Yes,Yes,"RL, ML",Yes,No,"Acceptance ratio, Cost, Latency"
+Paper,Application Domain,Application Domain,Topology,Library,Model,Generator,Year,VNF-FGE,VNF-CC,VNF-SCH,Coordinated?,Scalable?,Algorithm,Algorithm/Formalization,Shows adaptiveness?,Implementation,Implemented and tested on a network?,Optimization factors,Optimization factors,Other Remarks
+"Piecing together the NFV provisioning puzzle: Efficient placement and chaining of virtual network functions (Luizelli et al., 2015)","ISP (Brite, Barabasi-Albert model)",Service Provider,,,Barabási–Albert ,BRITE,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize no. of VNF instances mapped to SN.,No. of VNF instance,
+"Cost-based placement of vDPI functions in NFV infrastructures (Bouet, Leguay and Conan, 2015)",ISP(GEANT),Service Provider,Geant,,Barabási–Albert ,,2015,Yes,No,No,N/A,Yes,Heuristic,Greedy algorithm,Yes,No,No,Cost (Network resources cost and VNF licenses),Cost,
+"Path-based Optimization of NFV-Resource Allocation in SDN Networks (Hamann and Fischer, 2019)",Generic (Barab´asi-Albert),Generic,,,Barabási–Albert ,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize resource usage,Resource usage,
+"A Parallel Placement Approach for Service Function Chain Using Deep Reinforcement Learning (Chai et al., 2019)",Generic (Barabasi-Albert),Generic,,,Barabási–Albert ,,2019,Yes,No,No,N/A,Yes,RL,RL,No,No,No,Minimize resource consumption (VM and bandwidth),Resource usage,
+"Throughput Optimization and Delay Guarantee VNF Placement for Mapping SFC Requests in NFV-Enabled Networks (Yue, Cheng, Wang, et al., 2021)","Generic (Fat tree, Barabasi-Albert)",Generic,Fat tree,,Barabási–Albert ,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,Alevin,Yes (Alevin),Maximize acceptance ratio,Acceptance ratio,
+"An Availability-Enhanced Service Function Chain Placement Scheme in Network Function Virtualization (Xu and Kafle, 2019)",ISP (Erd?os-Rényi graph- Germany 50),Service Provider,Germany 50,,Erd?s–Rényi,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize e2e delay,Latency,
+"SAP: Subchain-Aware NFV Service Placement in Mobile Edge Cloud (Doan et al., 2023)",MEC (Erdös-Rényi),Edge Computing,,,"Erd?s–Rényi, Barabási–Albert ",NetworkX,2023,Yes,No,No,N/A,Yes,Tabu Search,Tabu Search,No,OpenStack,Yes (OpenStack),Minimize total cost,Cost,
+"Virtual network forwarding graph embedding based on Tabu Search (Wang et al., 2017)","Generic (BRITE, Waxman)",Generic,,,Waxman,BRITE,2017,Yes,No,No,N/A,Yes,Tabu search,Tabu search,Yes,No,No,Minimize bandwidth consumption,Resource usage,
+"Coordinated Allocation of Service Function Chains (Beck and Botero, 2016)",Generic (Waxman),Generic,,,Waxman,,2016,Yes,Yes,No,Yes,Yes,Heuristic,Breadth-first search and backtracking (heuristic),No,Alevin,Yes (Alevin),Minimize bandwidth utilization,Resource usage,
+"Optimizing the Embedding of Virtualized Cloud Network Infrastructures across Multiple Domains (Soares and Sargento, 2015)",Generic (Waxman),Generic,,,Waxman,,2015,Yes,No,No,N/A,No,LP,ILP,Yes,No,Yes,Minimize link load and bandwidth consumption,Resource usage,
+"Virtual network function deployment algorithm based on graph convolution deep reinforcement learning (Qiu et al., 2023)",Generic(Waxman),Generic,,,Waxman,,2023,Yes,No,No,N/A,Yes,RL,"Graph Convolution Network, RL",Yes,No,No,Deployment cost,Cost,
+"Optimizing resource utilization in NFV dynamic systems: New exact and heuristic approaches (Nguyen, Minoux and Fdida, 2019)",ISP( SNDLib)Random using Brite generator  Waxman model,Service Provider,,SNDLib,Waxman,BRITE,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize utilization of links and nodes,Resource usage,
+"DRL-SFCP: Adaptive Service Function Chains Placement with Deep Reinforcement Learning (T. Wang et al., 2021)",Infrastructure providers (Waxman model),Service Provider,,,Waxman,,2021,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize average revenue (depends on the acceptance of SFCR),Revenue,
+"Online Joint VNF Chain Composition and Embedding for 5G Networks (Li et al., 2018)",5G (GT-ITM),5G,,,,GT-ITM,2018,Yes,Yes,No,No,Yes,Heuristic,Heuristic,Yes,No,No,Minimize embedding cost and maximize total revenue,"Cost, Revenue",
+"A Reliability-Aware, Delay Guaranteed, and Resource Efficient Placement of Service Function Chains in Softwarized 5G Networks (Thiruvasagam, Kotagi and Siva Ram Murthy, 2022)",5G,5G,,,,,2022,Yes,No,No,N/A,Yes,Stable matching,Modified Stable Matching algorithm,Yes,No,No,Minimize nodes used,Resource usage,
+"Latency-aware Composition of Virtual Functions in 5G (Martini et al., 2015)",5G,5G,,,,,2015,Yes,No,No,N/A,No,LP,ILP,No,No,No,Minimize latency and processing time,Latency,
+"Latency-Aware Service Function Chain Placement in 5G Mobile Networks (Harutyunyan et al., 2019)",5G,5G,,,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize end-to-end latency and provisioning cost.,"Latency, Cost",
+"Latency and Mobility–Aware Service Function Chain Placement in 5G Networks (Harutyunyan et al., 2022)",5G,5G,,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize e2e latency, provisioning cost, no. of VNF migrations, no. of inter-Centralized Units handovers","Latency, Cost, No. of Migrations",
+"Reliable Placement of Service Function Chains and Virtual Monitoring Functions With Minimal Cost in Softwarized 5G Networks (Thiruvasagam et al., 2021)",5G,5G,,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize capex and opex,Cost,
+"Auto-3P: An autonomous VNF performance prediction & placement framework based on machine learning (Bunyakitanon et al., 2020)",5G,5G,,,,,2020,Yes,No,No,N/A,Yes,ML,ML,Yes,5Gin-FIRE testbed,Yes (5Gin-FIRE testbed),Total Response Time,Latency,
+"VNF-FG design and VNF placement for 5G mobile networks (Cao et al., 2017)",5G (NSFNet),5G,NSFNET,,,,2017,Yes,Yes,No,No,Yes,GA,GA,No,No,No,Minimize bandwidth consumption and link utilization,Resource usage,
+"SFC Design and VNF Placement Based on Traffic Volume Scaling and VNF Dependency in 5G Networks (Zeng et al., 2022)","5G (NSFNet, USNET)",5G,"NSFNET, USNet",,,,2022,Yes,Yes,No,No,Yes,Heuristic,Heuristic,No,No,No,Minimize total network resource cost,Cost,
+"Efficient solutions to the placement and chaining problem of User Plane Functions in 5G networks (Leyva-Pupo and Cervelló-Pastor, 2022)","5G, MEC","5G, Edge Computing",,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Metaheuristic,No,No,No,"Minimize provisioning cost, service response time (e2e delay).","Cost, Latency",
+"Mobility-Aware Service Function Chaining in 5G Wireless Networks with Mobile Edge Computing (Chen and Liao, 2019)","5G, MEC","5G, Edge Computing",,,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize migration delay (time to move VNFs from current MEC to new MEC), and service downtime.","Migration Latency, Availability",
+"Machine learning-driven service function chain placement and scaling in MEC-enabled 5G networks (Subramanya, Harutyunyan and Riggio, 2020)","5G, MEC","5G, Edge Computing",,,,,2020,Yes,No,No,N/A,Yes,"Heuristic, ML","Heuristic, NN",Yes,No,No,Minimize end-to-end latency,Latency,
+"Cost-efficient Placement and Scaling of 5G Core Network and MEC-enabled Application VNFs (Harutyunyan, Behravesh and Slamnik-Kriještorac, 2021)","5G, MEC","5G, Edge Computing",,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize service provisioning cost,Cost,
+"Genetic Algorithm for Holistic VNF-Mapping and Virtual Topology Design (Ruiz et al., 2020) (Not Sure)","5G, MEC, Optical","5G, Edge Computing, Optical",,,,,2020,Yes,Yes,No,Yes,Yes,GA,GA,No,OMNet++,Yes (OMNet++),"Minimize blocking ratio, percentage of active CPU cores and used wavelengths.","Acceptance ratio, Resource usage",
+"An Efficient Service Function Chain Placement Algorithm in a MEC-NFV Environment (Wang et al., 2019)",MEC (GT-ITM),Edge Computing,,,,GT-ITM,2019,Yes,No,No,N/A,No,Hungarian,Hungarian-based algorithm,No,Alevin,Yes (Alevin),"Minimize resource utilization
+Minimize Latency","Resource usage, Latency",
+"Joint SFC Deployment and Resource Management in Heterogeneous Edge for Latency Minimization (Liu, Shang and Yang, 2021)",Edge (ITZ),Edge Computing,,ITZ,,,2021,Yes,No,No,N/A,Yes,Game theory,Game theory,Yes,No,No,Minimize latency,Latency,
+"DSPPV: Dynamic service function chains placement with parallelized virtual network functions in mobile edge computing (Li and Kordi, 2023)","MEC (RNP, BICS) ITZ",Edge Computing,"RNP, BICS",ITZ,,,2023,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,"Minimize latency, resources consumed, service violation,  maximize throughput","Latency, Resource usage, Service violation, Throughput",
+"Trusted Cloud-Edge Network Resource Management: DRL-Driven Service Function Chain Orchestration for IoT (Guo et al., 2020)",Edge,Edge Computing,,,,,2020,Yes,No,No,N/A,Yes,"Blockchain, RL",Blockchain and RL,Yes,No,No,Minimize network delay and cost,"Latency, Cost",
+"Risk-Aware SFC Placement Method in Edge Cloud Environment (Zou et al., 2023)",Edge ,Edge Computing,,,,,2023,Yes,No,No,N/A,Yes,"ML, RL","LSTM, RL",No,Mininet,Yes (Mininet),Minimize latency and maximize resource usage.,"Latency, Resource usage",
+"Prediction-based SFC Placement with VNF Sharing at the Edge (Mohamad and Hassanein, 2022)",Edge (NSFNET),Edge Computing,NSFNET,,,,2022,Yes,No,No,N/A,No,Exact,Exact,Yes,No,No,"Minimize rejection rate, overall cost and resource utilization (CPU, RAM)","Acceptance ratio, Cost, Resource usage",
+"On Demonstrating the Gain of SFC Placement with VNF Sharing at the Edge (Mohamad and Hassanein, 2019)",Edge (NSFNET),Edge Computing,NSFNET,,,,2019,Yes,No,No,N/A,No,LP,ILP,No,No,No,Overall cost,Cost,
+"EdgeDQN: Multiple SFC Placement in Edge Computing Environment (Pandey et al., 2021)",Edge computing,Edge Computing,,,,,2021,Yes,No,No,N/A,Yes,RL,RL,No,OpenStack,Yes (OpenStack),Minimize delay,Latency,
+"RNN-EdgeQL: An auto-scaling and placement approach for SFC (Pandey et al., 2023)",Edge computing,Edge Computing,,,,,2023,Yes,No,No,N/A,Yes,"ML, RL","RNN, RL",Yes,OpenStack,Yes (OpenStack),Minimize end-to-end path (delay),Latency,
+"Availability-aware Service Function Chain Placement in Mobile Edge Computing (Yin et al., 2020)",MEC,Edge Computing,,,,,2020,Yes,No,No,N/A,No,Dynamic Programming,Dynamic Programming-based algorithm,Yes,Alevin,Yes (Alevin),Minimize resource consumption (CPU and bandwidth),Resource usage,
+"Throughput optimization VNF placement for mapping SFC requests in MEC-NFV enabled networks (Yue et al., 2020)",MEC,Edge Computing,,,,,2020,Yes,No,No,N/A,No,Exact,Exact,No,Alevin,Yes (Alevin),Acceptance ratio,Acceptance ratio,
+"Joint Computation Offloading, SFC Placement, and Resource Allocation for Multi-Site MEC Systems (Nguyen and Le, 2020)",MEC,Edge Computing,,,,,2020,Yes,No,No,N/A,Yes,Heuristic,Greedy algorithm,No,No,No,Minimize energy consumption and computing cost,"Power consumption, Cost",
+"Robust and Reliable SFC Placement in Resource-Constrained Multi-Tenant MEC-Enabled Networks (Manias et al., 2023)",MEC,Edge Computing,,,,,2023,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize delay,Latency,
+"Service Function Chains multi-resource orchestration in Virtual Mobile Edge Computing (Laroui et al., 2023)",MEC,Edge Computing,,,,,2023,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,"Maximize acceptance ratio, minimize number of active servers","Acceptance ratio, Resource usage",
+"A Novel Strategy for VNF Placement in Edge Computing Environments (Battisti et al., 2022)",MEC,Edge Computing,,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,"Minimize total cost of infrastructure, minimize energy consumption and total latency.","Cost, Latency, Power consumption",
+"Poster: A Linear Programming Approach for SFC Placement in Mobile Edge Computing (Wang, Cheng and Chen, 2019)",MEC (GT-ITM),Edge Computing,ITM,,,,2019,Yes,No,No,N/A,No,Hungarian,Hungarian based,No,Alevin,Yes (Alevin),Execution time,Latency,
+"An Efficient Service Function Chaining Placement Algorithm in Mobile Edge Computing (Wang, Cheng and Chen, 2020)","MEC,(Internet2, US Mesh, Shangai Telecom)",Edge Computing,"Internet2, US Mesh, Shangai Telecom",,,,2020,Yes,No,No,N/A,No,Hungarian,Exact (Hungarian-based algorithm),Yes,Alevin,Yes (Alevin),Maximize resource utilization,Resource usage,
+"Modelling the NFV forwarding graph for an optimal network service deployment (Riera et al., 2015).","MEC, Datacenter, Generic","Edge Computing, Service Provider, Generic",,,,,2015,No,No,Yes,N/A,No,N/A,N/A,No,No,No,Execution time,Latency,One VNF at a time
+"Virtual Network Functions Orchestration in Enterprise WLANs (Riggio, Rasheed and Narayanan, 2015)",Enterprise WLAN,Enterprise WLAN,,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Greedy,No,No,No,Latency,Latency,
+"DSPVR: dynamic SFC placement with VNF reuse in Fog-Cloud Computing using Deep Reinforcement Learning (Zahedi, Mollahoseini Ardakani and Heidary-Sharifabad, 2023)",Fog (Geant SND Lib),Fog Computing,Geant,SNDLib,,,2023,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Minimize latency and consumed resource and maximize throughput,"Latency, Resource usage, Throughput",
+"Greedy Nominator Heuristic: Virtual function placement on fog resources (Almurshed, Rana and Chard, 2022)",Fog,Fog Computing,,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,Raspberry Pi deployment platform,Yes (Raspberry Pi deployment platform),"Maximize availability, minimize overall application time (latency?), deployment cost.","Availability, Latency, Cost",
+"Towards delay-aware container-based Service Function Chaining in Fog Computing (J. Santos et al., 2020)",Fog,Fog Computing,,,,,2020,Yes,No,No,N/A,No,Exact,Exact,No,K8s,Yes (K8s),Minimize latency,Latency,
+"A dynamic planning model for deploying service functions chain in fog-cloud computing (Zhang et al., 2022)",Fog network,Fog Computing,,,,,2022,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Minimize latency and resource cost. Maximize throughout.,"Latency, Cost, Throughput",
+"Computation Offloading Optimization Based on Probabilistic SFC for Mobile Online Gaming in Heterogeneous Network (Jin, Zhu and Zhao, 2019)","Fog, RAN","Fog Computing, RAN",,,,,2019,Yes,No,No,N/A,Yes,"Heuristic, ML","Heuristic, Deep Learning",Yes,No,No,"Minimize total cost (CPU/GPU, instantiation and transmission)",Cost,
+"Cost-aware Placement and Chaining of Service Function Chain with VNF Instance Sharing (H. Guo et al., 2020)",Generic (GT-ITM),Generic,,,,GT-ITM,2020,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize total cost,Cost,
+"An Approach for Service Function Chain Reconfiguration in Network Function Virtualization Architectures (Liu et al., 2019)",Generic (GT-ITM),Generic,,,,GT-ITM,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,SFC reconfiguration cost and revenue,"Reconfiguration cost, Revenue",
+"Dynamic SFC Embedding Algorithm Assisted by Federated Learning in Space–Air–Ground-Integrated Network Resource Allocation Scenario (Zhang et al., 2023)","Generic (GT-ITM, SAGIN)",Generic,SAGIN,,,GT-ITM,2023,Yes,No,No,N/A,Yes,ML,Federated Learning,Yes,No,No,Minimize end-to-end delay.,Latency,
+"Hierarchical Multi-Agent Deep Reinforcement Learning for SFC Placement on Multiple Domains (Toumi, Bagaa and Ksentini, 2021a)",Generic (Fat tree) NetworkX,Generic,Fat tree,,,NetworkX,2021,Yes,No,No,N/A,Yes,RL,RL,No,No,No,"Minimize rejection rate, deployment cost, and end-to-end latency.","Acceptance ratio, Cost, Latency",
+"On using Deep Reinforcement Learning for Multi-Domain SFC placement (Toumi, Bagaa and Ksentini, 2021)",Generic(Fat tree) NetworkX,Generic,Fat tree,,,NetworkX,2021,Yes,No,No,N/A,Yes,RL,RL,No,No,No,Minimize cost and latency,"Cost, Latency",
+"SPIDER: An availability-aware framework for the service function chain placement in distributed scenarios (Santos et al., 2023)",Generic,Generic,,,,NetworkX,2023,Yes,No,No,N/A,Yes,RL,RL,Yes,K8s,Yes (K8s),Minimize operational costs while ensuring availability,"Cost, Availability",
+"Optimal VNF Placement via Deep Reinforcement Learning in SDN/NFV-Enabled Networks (Pei et al., 2020)",Generic (TOTEM project),Generic,,TOTEM project,,,2020,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Minimize placement and infra cost and request rejection,"Cost, Acceptance ratio",
+"Online Coordinated NFV Resource Allocation via Novel Machine Learning Techniques (Li et al., 2023)",Generic (TOTEM project),Generic,,TOTEM project,,,2023,Yes,Yes,Yes,Yes,Yes,"RL, ML","RL, NN",Yes,No,No,"Maximize acceptance ratio, minimize link cost, node cost (CPU + memory), setup cost, latency and maximize latency","Acceptance ratio, Cost, Latency",
+"Optimal service function chain composition in network functions virtualization (Ocampo et al., 2017)",Generic,Generic,,,,,2017,No,Yes,No,N/A,No,LP,Integer Linear Programming,No,No,No,Bandwidth,Resource usage,
+"IETF-based Finite Automaton for Service Composition in Service Function Chaining (Khosravian et al., 2020)",Generic,Generic,,,,,2020,No,Yes,No,N/A,No,Finite Automaton,Finite Automaton,No,No,No,N/A,N/A,
+"An Improved Genetic Algorithm for the Scheduling of Virtual Network Functions (Li et al., 2019)",Generic,Generic,,,,,2019,No,No,Yes,N/A,Yes,GA,Genetic Algorithm,No,No,No,Transmission and processing delay,Latency,One VNF at a time
+"Fair Virtual Network Function Scheduling with Deep Reinforcement Learning (Kuai and Wang, 2021)",Generic,Generic,,,,,2021,No,No,Yes,N/A,Yes,RL,Reinforcement Learning,No,No,No,Total execution time and fairness,"Latency, Fairness",One VNF at a time
+"Virtual network function scheduling: Concept and challenges (Riera et al., 2014)",Generic,Generic,,,,,2014,No,No,Yes,N/A,No,Flexible job-shop problem,Flexible job-shop problem,No,No,No,Execution time,Latency,One VNF at a time
+"Virtual Network Function Scheduling: A Matching Game Approach (Pham, Tran and Hong, 2018)",Generic,Generic,,,,,2018,No,No,Yes,N/A,Yes,Game theory,Matching game approach,Yes,No,No,Execution time,Latency,One VNF at a time
+"Towards Latency Aware Multi-joint Optimization Method for VNF Placement and SFC Routing Via Swarm Intelligence (Sharif et al., 2022)",Generic,Generic,,,,,2022,Yes,No,No,N/A,Yes,Grey wolf,Grey Wolf Optimizer,No,No,No,Minimize latency and resource consumption.,"Latency, Resource usage",
+"Online Service Function Chain Placement for Cost-Effectiveness and Network Congestion Control (Shang, Liu and Yang, 2022)",Generic,Generic,,,,,2022,Yes,No,No,N/A,Yes,Approximation algorithm,Approximation algorithm,Yes,No,No,Minimize operating cost and congestion,"Cost, Congestion",
+"Network Congestion-aware Online Service Function Chain Placement and Load Balancing (Shang, Liu and Yang, 2019)",Generic,Generic,,,,,2019,Yes,No,No,N/A,Yes,Approximation algorithm,Approximation algorithm,Yes,No,No,Minimize operating cost and congestion,"Cost, Congestion",
+"Machine Learning for Performance-Aware Virtual Network Function Placement (Manias et al., 2019)",Generic,Generic,,,,,2019,Yes,No,No,N/A,Yes,ML,ML,No,No,No,Minimize delay (latency),Latency,
+"Single and Multi-Domain Adaptive Allocation Algorithms for VNF Forwarding Graph Embedding (Quang et al., 2019)",Generic,Generic,,,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize total cost,Cost,
+"On the Interplay Between Network Function Mapping and Scheduling in VNF-Based Networks: A Column Generation Approach (Alameddine, Sebbah and Assi, 2017)",Generic,Generic,,,,,2017,No,Yes,Yes,Yes,Yes,Column generation,Column generation,Yes,No,No,Minimize total schedule length (execution time),Latency,Multiple SFCs
+"Multi-objective VNF Placement Optimization with NSGA-III (Bekhit et al., 2023)",Generic,Generic,,,,,2023,No,Yes,Yes,Yes,Yes,GA,GA,No,No,No,"Minimize bandwidth consumption and delay cost.
+Maximize average resource utilization of each VM.","Resource usage, Latency",
+"Design and Evaluation of Algorithms for Mapping and Scheduling of Virtual Network Functions (Mijumbi et al., 2015)",Generic,Generic,,,,,2015,Yes,No,Yes,Yes,Yes,"Heuristic, Tabu search",Greedy algorithm and Tabu search.,Yes,No,No,"Minimize execution time, cost.","Cost, Latency",One VNF at a time
+"Mapping and Scheduling for Non-Uniform Arrival of Virtual Network Function (VNF) Requests (Gamal et al., 2019)",Generic,Generic,,,,,2019,Yes,No,Yes,Yes,Yes,GA,GA (NSGA II and MOAD),Yes,No,No,"Maximize acceptance ratio, minimize the no. of bottleneck links and overall processing time (execution time).  ","Acceptance ratio, Latency, Congestion",One VNF at a time
+"Mapping and Scheduling of Virtual Network Functions using Multi Objective Optimization Algorithm (Gamal, Abolhasan, et al., 2019)",Generic,Generic,,,,,2019,Yes,No,Yes,Yes,Yes,GA,GA (MOAD),No,No,No,Minimize delay,Latency,One VNF at a time
+"Delay-Aware Scheduling and Resource Optimization With Network Function Virtualization (Qu, Assi and Shaban, 2016)",Generic,Generic,,,,,2016,Yes,No,Yes,No,Yes,GA,GA,No,No,No,Minimize latency,Latency,One VNF at a time
+"Scalable Architecture for Service Function Chain Orchestration (Sahhaf et al., 2015)",Generic,Generic,,,,,2015,Yes,Yes,No,No,No,Exact,Exact,No,No,No,Minimize resource consumed,Resource usage,
+"Customizable real-time service graph mapping algorithm in carrier grade networks (Németh et al., 2016)",Generic,Generic,,,,,2016,Yes,No,No,N/A,Yes,Heuristic,Greedy algorithm based on backtracking,No,Mininet,Yes (Mininet),Acceptance ratio,Acceptance ratio,
+"Location-based Data Model for Optimized Network Slice Placement (Esteves et al., 2020)",Generic,Generic,,,,,2020,Yes,No,No,N/A,No,LP,ILP,No,No,No,Minimize global resource consumption,Resource usage,
+"Virtual Network Function Placement Optimization With Deep Reinforcement Learning (Solozabal et al., 2020)",Generic,Generic,,,,,2020,Yes,No,No,N/A,Yes,RL,RL,No,No,No,Power consumption,Power consumption,
+"NUMASFP: NUMA-Aware Dynamic Service Function Chain Placement in Multi-Core Servers (Chintapalli et al., 2022)",Generic,Generic,,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,OpenNetVM,Yes (OpenNetVM),Maximize throughput,Throughput,
+"GRU and EdgeQ-Learning based Traffic Prediction and Scaling of SFC (Pandey, Hong and Yoo, 2021)",Generic,Generic,,,,,2021,Yes,No,No,N/A,Yes,"ML, RL","RNN, RL",Yes,OpenStack,Yes (OpenStack),"Minimize latency, minimize scaling cost","Latency, Scaling cost",
+"Octans: Optimal Placement of Service Function Chains in Many-Core Systems (Zheng et al., 2019)",Generic,Generic,,,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,OpenNetVM,Yes (OpenNetVM),Maximize aggregate performance across all SFCs,Performance,
+"An Energy-aware Service Function Chaining and Reconfiguration Algorithm in NFV (Kim, Han and Park, 2016)",Generic,Generic,,,,,2016,Yes,No,No,N/A,Yes,GA,GA,Yes,OMNET++,Yes (OMNET++),Energy consumption while satisfying QoS,Power consumption,
+"Online Admission Control and Embedding of Service Chains (Lukovszki and Schmid, 2015)",Generic,Generic,,,,,2015,Yes,No,No,N/A,No,Exact,Exact,Yes,No,No,Maximize acceptance ratio,Acceptance ratio,
+"Reliability-Aware Service Function Chaining With Function Decomposition and Multipath Routing (Qu et al., 2020)",Generic,Generic,,,,,2020,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize link bandwidth utilization with delay and reliability constraints,Resource usage,
+"A Game for Energy-Aware Allocation of Virtualized Network Functions (Bruschi, Carrega and Davoli, 2016)",Generic,Generic,,,,,2016,Yes,No,No,N/A,Yes,Game theory,Game theory,Yes,No,No,Minimize delay and energy consumption,"Latency, Power consumption",
+"HARS: A High-Available and Resource-Saving Service Function Chain Placement Approach in Data Center Networks (Niu et al., 2022)",Generic,Generic,,,,,2022,Yes,No,No,N/A,Yes,Meteor Shower Optimization ,Meteor Shower Optimization algorithm,Yes,Mininet,Yes (Mininet),Minimize Resource Cost,Cost,
+"Low-Latency Virtual Network Function Scheduling Algorithm Based on Deep Reinforcement Learning (Liu et al., no date)",Generic ,Generic,,,,,2023,Yes,No,Yes,No,Yes,RL,Reinforcement Learning (Deep Reinforcement Learning),Yes,No,No,Rejection rate,Acceptance ratio,Multiple SFCs
+"On Using Physical Programming for Multi-Domain SFC Placement With Limited Visibility (Toumi et al., 2022)",Generic (Fat tree),Generic,Fat tree,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,"Minimize end-to-end latency, and overall cost.
+Maximize bandwidth per user.","Cost, Latency, Resource Usage",
+"Resource Optimization and Delay Guarantee Virtual Network Function Placement for Mapping SFC Requests in Cloud Networks (Yue et al., 2021)",Generic (Fat tree),Generic,Fat tree,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,Alevin,Yes (Alevin),Minimize resource consumption,Resource usage,
+"Application- and reliability-aware service function chaining to support low-latency applications in an NFV-enabled network (Erbati and Schiele, 2021)",Generic (Gridnet network topology),Generic,Gridnet network topology,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize latency and improve reliability,"Latency, Reliability",
+"Multiagent Deep-Reinforcement-Learning-Based Virtual Resource Allocation Through Network Function Virtualization in Internet of Things (Shah and Zhao, 2021)",IoT,IoT,,,,,2021,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize revenue and minimize cost of nodes and links,"Revenue, Cost",
+"Mobile Core Network Virtualization: A Model for combined Virtual Core Network Function Placement and Topology Optimization (Baumgartner, Reddy and Bauschert, 2015)","Mobile core (Polska, Germany50) SNDLib",Mobile Core,"Polska, Germany50",SNDLib,,,2015,Yes,No,No,N/A,No,LP,ILP,No,No,No,Minimize the cost of link and node resources.,Cost,
+"Combined Virtual Mobile Core Network Function Placement and Topology Optimization with Latency Bounds (Baumgartner, Reddy and Bauschert, 2015a)",Mobile Core(Nobel-EU) SNDLib,Mobile Core,NobelEU,SNDLib,,,2015,Yes,No,No,N/A,No,LP,MILP,No,No,No,Cost,Cost,
+"Applying NFV and SDN to LTE Mobile Core Gateways; The Functions Placement Problem (Basta et al., 2014)",Mobile Core ,Mobile Core,,,,,2014,Yes,No,No,N/A,No,Exact,Exact,No,custom,Yes (custom),Minimize total transport network load (data plane traffic),Resource usage,
+"On the Complex Scheduling Formulation of Virtual Network Functions over Optical Networks (Riera, Hesselbach, et al., 2014)",Optical,Optical,,,,,2014,No,No,Yes,N/A,No,Resource Constrained Project Scheduling Problem,Resource Constrained Project Scheduling Problem,No,No,No,Execution time,Latency,One VNF at a time
+"A cost-efficient, load-balanced and fragmentation-aware approach for deployment of VNF service chains in Elastic Optical Networks (Khatiri and Mirjalily, 2022)",Optical (NSFNET),Optical,NSFNET,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize total cost of resource utilization,"Cost, Resource usage",
+"Network Function Placement for NFV Chaining in Packet/Optical Datacenters (Xia et al., 2015)","Optical, Datacenter","Optical, Service Provider",,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize the total number of placement groups for all SFCs. A placement group of a NF chain corresponds to a pod the NF chain needs to visit.,No. of placement groups,
+"Server placement and assignment in virtualized radio access networks (Mijumbi, Serrat, Gorricho, Rubio-Loyola, et al., 2015)",Radio Access Networks (BRITE),RAN,,,,BRITE,2015,Yes,No,No,N/A,Yes,Heuristic,Greedy Approximation,No,No,No,Latency and cost,"Latency, Cost",
+"Virtual Network Functions Orchestration in Wireless Networks (Riggio et al., 2015)",RAN,RAN,,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,CREATE-NET,Yes (CREATE-NET),Minimize cost,Cost,
+"Scheduling Wireless Virtual Networks Functions (Riggio et al., 2016)",RAN (Fat tree),RAN,Fat tree,,,,2016,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Optimize SFC requested resources are at least equal to the available SN resources,N/A,
+"Network service chaining with optimized network function embedding supporting service decompositions (Sahhaf, Tavernier, Rost, et al., 2015)","ISP ITZ BT Europe, Interoute) NetworkX",Service Provider,"BTEurope, Interoute",ITZ,,NetworkX,2015,Yes,Yes,No,No,Yes,Heuristic,Heuristic,Yes,No,No,Minimize embedding cost,Cost,
+"A reinforcement learning-based approach for availability-aware service function chain placement in large-scale networks (Santos et al., 2022)",ISP,Service Provider,,,,NetworkX,2022,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Minimize cost and energy consumption,"Cost, Power consumption",
+"Joint Dynamical VNF Placement and SFC Routing in NFV-Enabled SDNs (Liu et al., 2021)",ISP (CORONET CONUS),Service Provider,CORONET CONUS,,,NetworkX,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize resource consumption cost,Cost,
+"Efficient Orchestration Mechanisms for Congestion Mitigation in NFV: Models and Algorithms (Elias et al., 2017)","ISP (ITZ Abilene, Geant)",Service Provider,"Abilene, Geant",ITZ,,,2017,Yes,No,No,N/A,Yes,Game theory,Game theory,No,No,No,Minimize overall network congestion,Congestion,
+"Path Mapping Approach for Network Function Virtualization Resource Allocation with Network Function Decomposition Support (Raddwan et al., 2019)","ISP (ITZ BTEurope, Interoute)",Service Provider,"BTEurope, Interoute",ITZ,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize embedding cost,Cost,
+"Provably Efficient Algorithms for Traffic-sensitive SFC Placement and Flow Routing (Mao, Shang and Yang, 2022)",ISP (ITZ DFN (German Research Network)),Service Provider,DFN,ITZ,,,2022,Yes,No,No,N/A,No,Exact,Exact,Yes,No,No,Minimize cost and latency,"Cost, Latency",
+"Joint Optimization of Service Function Chaining and Resource Allocation in Network Function Virtualization (Wang et al., 2016)","ISP, Datacenter (ITZ Fta-tree for SC)",Service Provider,Fat tree,ITZ,,,2016,Yes,Yes,No,No,Yes,Heuristic,Greedy algorithm,No,No,No,"Minimize link cost, capex and opex.",Cost,
+"Service Function Chain Placement for Joint Cost and Latency Optimization (Khoshkholghi et al., 2020)", ISP Geant(Sndlib),Service Provider,Geant,SNDLib,,,2020,Yes,No,No,N/A,Yes,"LP, Bee colony, GA","MILP, Bee colony and GA",No,Mininet,Yes (Mininet),Cost and latency,"Cost, Latency",
+"Dynamic SFC placement with parallelized VNFs in Data Center Networks: A DRL-based approach (Jia and Hua, 2023)","Datatcenter (RNP, Abilene, Germany50) SNDLib",Service Provider,"RNP, Abilene, Germany50",SNDLib,,,2023,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,"Minimize service delay and cost, maximize throughput.",Resource usage,
+"Optimized Service Chain Placement Using Genetic Algorithm (Khoshkholghi et al., 2019)",ISP (Geant SNDLib),Service Provider,Geant,SNDLib,,,2019,Yes,No,No,N/A,Yes,GA,GA,No,No,No,Cost,Cost,
+"Joint Energy Efficient and QoS-Aware Path Allocation and VNF Placement for Service Function Chaining (Tajiki et al., 2019)",ISP (SNDlib abilene),Service Provider,Abilene,SNDLib,,,2019,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize energy consumption, minimize reconfiguration cost","Power consumption, Cost",
+"Specifying and Placing Chains of Virtual Network Functions (Mehraghdam, Keller and Karl, 2014)",ISP (SNDlib abilene),Service Provider,Abilene,SNDLib,,,2014,Yes,Yes,No,No,Yes,Heuristic,Heuristic,No,No,No,"Maximize remaining bandwidth, minimize no. of used nodes, minimize latency","Resource usage, Latency",
+"Dynamic Multicast-oriented Virtual Network Function Placement with SFC Request Prediction (Wang et al., 2022)","ISP(Arnes, Ta2, Brain, Tinet, Dfn, Tata) SNDLib, ITZ",Service Provider,"Arnes, TA2, Brain, Tinet, DFN, Tata","SNDLib, ITZ",,,2022,Yes,No,No,N/A,Yes,Grey wolf,Grey wolf,Yes,No,No,Minimize cost considering end-to-end delay and computing resource consumption,Cost,
+"Service-Aware Network Function Placement for Efficient Traffic Handling in Carrier Cloud (Bagaa, Taleb and Ksentini, 2016)","Carrier cloud (Carrier Cloud is a promising concept towards the
+decentralization of mobile networks, to, in turn, alleviate mobile
+traf?c load and reduce mobile operator cost. Carrier cloud
+is enabled by two main approaches, namely virtualization of
+the mobile network functions and networking over federated
+cloud. For intelligent carrier cloud dimensioning, the placement
+of mobile network functions over federated cloud is of vital
+importance.)",Service Provider,,,,,2016,Yes,No,No,N/A,Yes,Heuristic,Greedy and Heuristic algorithms.,No,No,,Reducing the instances of VNF (reducing cost),"No. of VNF instance, Load balancing",
+"GPSO: A Graph-based Heuristic Algorithm for Service Function Chain Placement in Data Center Networks (Niu, Cheng and Chen, 2020)",Datacenter,Service Provider,,,,,2020,Yes,No,No,N/A,Yes,Swarm intelligence,Swarm intelligence,No,Mininet,Yes (Mininet),Minimize resource utilization ensuring reliability,Resource usage,
+"Service Function Chain Composition, Placement, and Assignment in Data Centers (Z. Wang et al., 2019)",Datacenter,Service Provider,,,,,2019,Yes,Yes,No,No,Yes,Heuristic,Heuristic,Yes,No,No,Minimize link consumption and maximize VNF instance utilization,Resource usage,
+"Virtual network function embedding in real cloud environments (Bellavista et al., 2015)",Datacenter,Service Provider,,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,OpenStack,Yes (OpenStack),Worst case Cut Load Ratio.,Worst case Cut Load Ratio,
+"Joint Availability- and Traffic-aware Placement of Parallelized Service Chain in NFV-enabled Data Center (Wang, Cheng and Chen, 2020b)",Datacenter,Service Provider,,,,,2020,Yes,No,No,N/A,No,Exact,Exact,Yes,Alevin,Yes (Alevin),Minimize link consumption while ensuring availability,Resource usage,
+"Heuristic for Edge-enabled Network Slicing Optimization using the “Power of Two Choices” (Alves Esteves et al., 2020)",Datacenter,Service Provider,,,,,2020,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize resource usage, and blocking ratio","Resource usage, Acceptance ratio",
+"A Heuristically Assisted Deep Reinforcement Learning Approach for Network Slice Placement (Alves Esteves et al., 2022)",Datacenter,Service Provider,,,,,2022,Yes,No,No,N/A,Yes,RL,RL,No,No,No,"Maximize acceptance ratio, minimize total resource consumption and maximize load balancing.","Acceptance ratio, Resource usage, Load balancing",
+"HASP: High Availability SFC Placement Approach in Data Center Network (Xu et al., 2021)",Datacenter,Service Provider,,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,Mininet,Yes (Mininet),Availability,Availability,
+"The Dynamic Placement of Virtual Network Functions (Clayman et al., 2014)",Datacenter,Service Provider,,,,,2014,Yes,No,No,N/A,Yes,Exact,Exact,Yes,VLSP,Yes (Very Lightweight Service Platform (VLSP)),N/A,N/A,
+"VNF-P: A Model for Efficient Placement of Virtualized Network Functions (Moens and De Turck, 2014)",Datacenter,Service Provider,,,,,2014,Yes,No,No,N/A,No,LP,ILP,No,No,No,Minimize no. of used servers.,Resource usage,
+"Availability- and Traffic-Aware Placement of Parallelized SFC in Data Center Networks (M. Wang et al., 2021)",Datacenter,Service Provider,,,,,2021,Yes,No,No,N/A,No,Exact,Exact,Yes,Alevin,Yes (Alevin),Minimize link cost,Cost,
+"Service Function Chain Placement in Cloud Data Center Networks: A Cooperative Multi-agent Reinforcement Learning Approach (Gao, Chen and Tang, 2022)",Datacenter (Fat tree),Service Provider,Fat tree,,,,2022,Yes,No,No,N/A,Yes,RL,RL,No,No,No,Minimize communication cost/network traffic/delay,"Cost, Resource usage, Latency",
+"Efficient Placement of Service Function Chains in Cloud Computing Environments (Abdelaal, Ebrahim and Anis, 2021a)",Datacenter (Fat tree),Service Provider,Fat tree,,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,CloudSim,Yes (CloudSim),"Minimize link bandwidth utilization, network energy and overall SFC placement cost.","Cost, Power consumption, Resource usage",
+"Elastic Virtual Network Function Placement (Ghaznavi et al., 2015)",Datacenter (Fat tree),Service Provider,Fat tree,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Minimize transportation and installation cost,Cost,
+"High Availability Deployment of Virtual Network Function Forwarding Graph in Cloud Computing Environments (Abdelaal, Ebrahim and Anis, 2021)","Datacenter (Fat tree, Bcube)",Service Provider,"Fat tree, Bcube",,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,CloudSim,Yes (CloudSim),"Achieving high availability, reducing link utilization, minimizing bandwidth consumption, reducing energy consumption, reducing communication cost","Availability, Cost, Resource usage, Power consumption ",
+"Joint Optimization of Service Function Placement and Flow Distribution for Service Function Chaining (Jang et al., 2017)","Datacenter (Geant, 4-ary fat tree)",Service Provider,"Geant, Fat tree",,,,2017,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,"Energy cost, acceptable flow rate","Acceptance ratio, Power consumption",
+"Network Service Embedding with Multiple Resource Dimensions (Pentelas et al., 2020)",Datacenter (micro),Service Provider,,,,,2020,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize no. of servers used, and volume of network traffic","Resource usage, Congestion",
+"Balanced resource allocation for VNF service chain provisioning in inter-datacenter elastic optical networks (Khatiri, Mirjalily and Luo, 2022)",Datacenter (NSFNET),Service Provider,NSFNET,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Total cost,Cost,
+"Fast Resource Allocation for Virtual Network Functions Chain Placement (Mohamed et al., 2022)",Datacenter (Two star symmetric network),Service Provider,Two-Star Symmetric Network,,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimizing server cost and communication cost,Cost,
+"FlexChain: Bridging Parallelism and Placement for Service Function Chains (Xie, Ma and Zhao, 2021)","Datacenter(Bcube, VL2, Fat-tree)",Service Provider,"Bcube, VL2, Fat tree",,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,Acceptance ratio,Acceptance ratio,
+"Cost minimization in placing service chains for virtualized network functions (Wang et al., 2020)",Datacenter(Fat tree),Service Provider,Fat tree,,,,2020,Yes,No,No,N/A,Yes,Heuristic,Non-linear Programming and Heuristic,No,No,No,Minimize server rental cost,Cost,
+"VNF Placement with Replication for Load Balancing in NFV Networks (Carpio, Dhahri and Jukan, 2017)","Datacenter(ta2, Germany, Nobel-us, Janos-us Janos-us-ca) ",Service Provider,"TA2, Germany, Nobel-US, Janos-US, Janos-US-CA",,,,2017,Yes,No,No,N/A,Yes,"LP, GA, RFPA","ILP, GA, RFPA (Random Fit Placement Algorithm)",No,No,No,Link cost,Cost,
+"Optimizing Resource Allocation for Virtualized Network Functions in a Cloud Center Using Genetic Algorithms (Rankothge et al., 2017)","Datacenters (4-fat tree, Bcube, VL2)",Service Provider,"Fat tree, Bcube, VL2",,,,2017,Yes,No,No,N/A,Yes,GA,GA,Yes,"Mininet, Ryu","Yes (Mininet, Ryu)","Minimizes required servers, links, no. of config changes to link and server config, and average link utilization (for load balancing)","Reconfiguration cost, Resource usage",
+"Deploying Chains of Virtual Network Functions: On the Relation Between Link and Server Usage (Kuo et al., 2016)","Datatcenter(Fat tree, VL2, Bcube, Cogent)",Service Provider,"Fat tree, VL2, Bcube, Cogent",,,,2016,Yes,No,No,N/A,No, Exact, Exact,Yes,No,No,Acceptance ratio,Acceptance ratio,
+"Virtual network functions placement and routing optimization (Addis et al., 2015)",ISP,Service Provider,,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize link utilization and number of CPU cores used by VNFs.,Resource usage,
+"Online Fault-tolerant VNF Chain Placement: A Deep Reinforcement Learning Approach (Mao et al., 2020)","ISP (Abilene, ANS, AboveNet, Integra, BICS)",Service Provider,"Abilene, ANS, AboveNet, Integra, BICS",,,,2020,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize acceptance ratio,Acceptance ratio,
+"DDQP: A Double Deep Q-Learning Approach to Online Fault-Tolerant SFC Placement (Wang et al., 2021)","ISP (Abilene, ANS, AboveNet, Integra, BICS",Service Provider,"Abilene, ANS, AboveNet, Integra, BICS",,,,2021,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,"Acceptance ratio, maximize service availability of SFCs","Acceptance ratio, Availability",
+"Optimal Network Resource Utilization in Service Function Chaining (Jang et al., 2016)","ISP (Abilene, Internet2)",Service Provider,"Abilene, Internet2",,,,2016,Yes,No,No,N/A,No,LP,LP,No,No,No,Minimize network resource usage,Resource usage,
+"Virtual Function Placement and Traffic Steering in Flexible and Dynamic Software Defined Networks (Mohammadkhan et al., 2015)",ISP (AS-16631 - Rokcetfuel),Service Provider,Cogent,,,,2015,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize CPU load and link load.,Resource usage,
+"A robust control-theory-based exploration strategy in deep reinforcement learning for virtual network embedding (Dandachi et al., 2022)",ISP (BTEurope),Service Provider,BTEurope,,,,2022,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize revenue to cost ratio,Revenue cost ratio,
+"Virtual Network Function Embedding under Nodal Outage using Reinforcement Learning (Chetty, Ahmadi and Nag, 2020)","ISP (BtEurope, Netrail)",Service Provider,"BtEurope, Netrail",,,,2020,Yes,No,No,N/A,Yes,RL,RL,No,No,No,Acceptance rate,Acceptance ratio,
+"Dynamic Decomposition of Service Function Chain Using a Deep Reinforcement Learning Approach (Chetty et al., 2022)","ISP (BtEurope, Netrail, )",Service Provider,"BtEurope, Netrail",,,,2022,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Acceptance ratio satisfying QoS requirements.,Acceptance ratio,
+"Vertex-Centric Computation of Service Function Chains in Multi-domain Networks (Zhang et al., 2016)",ISP (CORONET),Service Provider,CORONET,,,,2016,Yes,No,No,N/A,No,Exact,Exact,No,No,No,N/A,N/A,
+"Resource Optimization and Delay-aware Virtual Network Function Placement for Mapping SFC Requests in NFV-enabled Networks (Yue, Cheng and Liu, 2020)",ISP (Fat tree Clos),Service Provider,"Fat tree, Clos",,,,2020,Yes,No,No,N/A,No,Exact,Exact,No,Alevin,Yes (Alevin),Minimize total resource consumption,Resource usage,
+"Holu: Power-Aware and Delay-Constrained VNF Placement and Chaining (Varasteh et al., 2021)","ISP (NobelEU, Internet2, Geant)",Service Provider,"NobelEU, Internet2, Geant",,,,2021,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,No,No,Minimize power consumption.,Power consumption,
+"On Dynamic Service Function Chain Deployment and Readjustment (Liu et al., 2017)",ISP (NSFNET),Service Provider,NSFNET,,,,2017,Yes,No,No,N/A,Yes,Column generation,Column generation,Yes,No,No,Maximize profit (revenue – cost),Revenue cost ratio,
+"Optimal Network Function Virtualization Realizing End-to-End Requests (Lin et al., 2016)",ISP (NSFNET),Service Provider,NSFNET,,,,2016,Yes,No,No,N/A,No,LP,Mixed Integer Program,No,No,No,Cost of routing and NF allocation,Cost,
+"PSVShare: A Priority-based SFC placement with VNF Sharing (Mohamad and Hassanein, 2020)",ISP (NSFNET),Service Provider,NSFNET,,,,2020,Yes,No,No,N/A,No,Integer Quadratically Constrained Program,Integer Quadratically Constrained Program,Yes,No,No,Minimize overall cost and minimize number of migrations,"Cost, No. of migrations",
+"Availability-aware and energy-aware dynamic SFC placement using reinforcement learning (Santos et al., 2021)",ISP (RNP),Service Provider,RNP,,,,2021,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize availability and minimize energy consumption,"Availability, Power consumption",
+"FlexSFC: Flexible Resource Allocation and VNF Parallelism for Improved SFC Placement (Agarwal, Chintapalli and Tamma, 2022)","ISP (USNET, CORONET)",Service Provider,"USNET, CORONET",,,,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,No,Alevin,Yes (Alevin),Minimize resource consumption,Resource usage,
+"Near Optimal Placement of Virtual Network Functions (Cohen et al., 2015)",ISP(Cogent),Service Provider,Cogent,,,,2015,Yes,No,No,N/A,No,Exact,Exact,No,No,No,Setup and connection cost,Cost,
+"A Fast Near-Optimal Approach for Energy-Aware SFC Deployment (Farkiani, Bakhshi and Mirhassani, 2019)","ISP(Internet2, USNET)",Service Provider,"Internet2, USNET",,,,2019,Yes,No,No,N/A,No,Exact,Exact,No,No,No,Minimize power consumption.,Power consumption,
+"Demand-Aware Network Function Placement (Lin et al., 2016a)",ISP(NSFNET),Service Provider,NSFNET,,,,2016,Yes,No,No,N/A,Yes,Game theory,Game theory,No,No,No,Deployment cost and utilization cost,Cost,
+"The Greatest Teacher, Failure is: Using Reinforcement Learning for SFC Placement Based on Availability and Energy Consumption (Santos et al., 2020)",ISP(Rede Nacional de Ensino e Pesquisa (RNP)),Service Provider,RNP,,,,2020,Yes,No,No,N/A,Yes,RL,RL,Yes,No,No,Maximize availability and minimize energy consumption,"Availability, Power consumption",
+"On Orchestrating Virtual Network Functions (Bari et al., 2015)","ISP, Datacenter (Internet2)",Service Provider,Internet2,,,,2015,Yes,No,No,N/A,Yes,Viterbi,Viterbi (Heuristic),No,No,No,Minimize OPEX,Cost,
+"On Service Chaining using Virtual Network Functions in Network-enabled Cloud Systems (Gupta et al., 2016)",Network-enabled cloud,Service Provider,,,,,2016,Yes,No,No,N/A,No,LP,ILP,No,No,No,Minimize resource consumption(bandwidth),Resource usage,
+"Joint Resource Management and Flow Scheduling for SFC Deployment in Hybrid Edge-and-Cloud Network (Mao, Shang and Yang, 2022a)","Datacenter, Edge ITZ(AMRES, ARNES, DFN, ITCDeltacom)","Service Provider, Edge Computing","AMRES, ARNES, DFN, ITCDeltacom",ITZ,,,2022,Yes,No,No,N/A,No,Exact,Exact,No,No,No,Minimize latency and resource cost,"Latency, Cost",
+"Placement of dynamic service function chains in partially VNF-enabled networks (Allahvirdi, Yousefi and Asgharian Sardroud, 2022)","ISP (BT Europe, Interroute, ITZ) GT-ITM Generic","Service Provider, Generic","BTEurope, Interoute",ITZ,,GT-ITM,2022,Yes,No,No,N/A,Yes,Heuristic,Heuristic,Yes,No,No,"Minimize cost of resources, deploying VNFs and reconfiguring deployed SFC.",Cost,
