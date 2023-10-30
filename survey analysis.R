@@ -4,7 +4,8 @@ library(ggrepel)
 library(tools)
 library("ggvenn")
 
-survey_data <- read.csv("Data/survey_data.csv")
+setwd("G:/PhD/literature_survey/")
+survey_data <- read.csv("./Data/survey_data.csv")
 
 data_store <- "Data/"
 
@@ -131,3 +132,73 @@ ggvenn(venn,
        fill_alpha = 0.5, 
        stroke_alpha =0.2,
        stroke_linetype = 0)
+
+# ------------------------------------- #
+#         Application Domain            #
+# ------------------------------------- #
+application <-  data.frame("Application Domain" = survey_data$Application.Domain.1) %>% 
+  separate_rows("Application.Domain", sep = ",") %>% 
+  mutate("Application.Domain"=tolower(trimws(Application.Domain, which ="left"))) %>%
+  mutate("Application.Domain"=trimws(Application.Domain, which = "right")) %>%
+  group_by(Application.Domain) %>% 
+  mutate("Application.Domain"=toTitleCase(Application.Domain)) %>% 
+  mutate(Application.Domain=str_replace(Application.Domain, "5g", "5G")) %>%
+  mutate(Application.Domain=str_replace(Application.Domain, "Wlan", "WLAN")) %>%
+  mutate(Application.Domain=str_replace(Application.Domain, "Iot", "IoT")) %>%
+  mutate(Application.Domain=str_replace(Application.Domain, "Ran", "RAN")) %>%
+  summarise(Count = n()) %>% 
+  write.csv(file=paste(data_store, "application.csv", sep = ""))
+
+# ------------------------------------- #
+#               Topology                #
+# ------------------------------------- #
+topology <-  data.frame("Topology" = survey_data$Topology) %>% 
+  separate_rows("Topology", sep = ",") %>% 
+  mutate("Topology"=tolower(trimws(Topology, which ="left"))) %>%
+  mutate("Topology"=trimws(Topology, which = "right")) %>%
+  group_by(Topology) %>% 
+  mutate(Topology=str_replace(Topology, "coronet conus", "coronet")) %>%
+  mutate(Topology=str_replace(Topology, "germany 50", "germany50")) %>%
+  mutate("Topology"=toupper(Topology)) %>% 
+  summarise(Count = n()) %>% 
+  mutate(Topology=ifelse(Count == 1, "Others", Topology)) %>% 
+  aggregate(Count ~ Topology, sum) %>% 
+  filter(Topology != "") %>% 
+  write.csv(file=paste(data_store, "topology.csv", sep = ""))
+
+# ------------------------------------- #
+#               Library                 #
+# ------------------------------------- #
+library <-  data.frame("Library" = survey_data$Library) %>% 
+  separate_rows("Library", sep = ",") %>% 
+  mutate("Library"=trimws(Library, which ="left")) %>%
+  mutate("Library"=trimws(Library, which = "right")) %>%
+  group_by(Library) %>% 
+  summarise(Count = n()) %>% 
+  filter(Library != "") %>% 
+  write.csv(file=paste(data_store, "library.csv", sep = ""))
+
+# ------------------------------------- #
+#               Model                   #
+# ------------------------------------- #
+model <-  data.frame("Model" = survey_data$Model) %>% 
+  separate_rows("Model", sep = ",") %>% 
+  mutate("Model"=trimws(Model, which ="left")) %>%
+  mutate("Model"=trimws(Model, which = "right")) %>%
+  group_by(Model) %>% 
+  summarise(Count = n()) %>% 
+  filter(Model != "") %>% 
+  write.csv(file=paste(data_store, "model.csv", sep = ""))
+
+# ------------------------------------- #
+#               Generator               #
+# ------------------------------------- #
+gen <-  data.frame("Generator" = survey_data$Generator) %>% 
+  separate_rows("Generator", sep = ",") %>% 
+  mutate("Generator"=trimws(Generator, which ="left")) %>%
+  mutate("Generator"=trimws(Generator, which = "right")) %>%
+  group_by(Generator) %>% 
+  summarise(Count = n()) %>% 
+  filter(Generator != "") %>% 
+  write.csv(file=paste(data_store, "generator.csv", sep = ""))
+  
