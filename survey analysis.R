@@ -89,9 +89,10 @@ impl <- data.frame("Implementation" = survey_data$Implementation) %>%
   mutate(Implementation=ifelse(Count == 1, "Others", Implementation)) %>% 
   aggregate(Count ~ Implementation, sum)
 
-implyesno <- impl %>% 
+implyesno <- data.frame("Implementation" = survey_data$Implementation) %>% 
   mutate(Implementation=ifelse(Implementation != "No", "Yes", "No")) %>% 
-  aggregate(Count ~ Implementation, sum) %>% 
+  group_by(Implementation) %>% 
+  summarise(Count = n()) %>% 
   write.csv(file=paste(data_store, "implementations.csv", sep = ""))
 
 sims <- impl %>% 
